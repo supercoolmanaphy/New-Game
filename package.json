@@ -1,0 +1,22 @@
+{
+  "name": "new-game",
+  "version": "1.0.0",
+  "description": "Basic website infrastructure for New Game",
+  "main": "script.js",
+  "scripts": {
+    "start": "python3 -m http.server 8080",
+    "test": "echo \"No tests configured yet\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/supercoolmanaphy/New-Game.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/supercoolmanaphy/New-Game/issues"
+  },
+  "homepage": "https://github.com/supercoolmanaphy/New-Game#readme"
+}
