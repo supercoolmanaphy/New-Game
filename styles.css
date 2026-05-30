@@ -1,0 +1,56 @@
+:root {
+  color-scheme: light dark;
+  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: linear-gradient(180deg, #111827 0%, #1f2937 100%);
+  color: #f9fafb;
+}
+
+.hero {
+  text-align: center;
+  padding: 5rem 1rem 3rem;
+}
+
+.hero h1 {
+  margin: 0 0 0.5rem;
+  font-size: clamp(2rem, 5vw, 3.5rem);
+}
+
+.button {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.7rem 1.2rem;
+  border-radius: 0.5rem;
+  background: #22c55e;
+  color: #052e16;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  padding: 0 1rem 3rem;
+}
+
+.card {
+  width: min(680px, 100%);
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 0.75rem;
+  padding: 1.25rem;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  opacity: 0.9;
+}
